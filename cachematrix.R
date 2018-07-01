@@ -7,7 +7,7 @@ makeCacheMatrix <- function(cacheMat = matrix()){
     set <- function(inputMat){           
         cacheMat <<- inputMat            #making the cached data of the input matrix
         invMat <<- NULL                  #initialization of the inverse matrix, 
-        #because a new matrix is inserted
+                                         #because a new matrix is inserted
     }
     get <- function() {                 
         cacheMat                         #retrieve the cached matrix
