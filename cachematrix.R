@@ -3,10 +3,10 @@ makeCacheMatrix <- function(cacheMat = matrix()){
     #and will give an output a list of function, containing a cached data 
     #of the input matrix, and the inverse of the input matrix
     
-    invMat <- NULL                       #inisialization of the cached inverse matrix
+    invMat <- NULL                       #initialization of the cached inverse matrix
     set <- function(inputMat){           
         cacheMat <<- inputMat            #making the cached data of the input matrix
-        invMat <<- NULL                  #inisialization of the inverse matrix, 
+        invMat <<- NULL                  #initialization of the inverse matrix, 
         #because a new matrix is inserted
     }
     get <- function() {                 
